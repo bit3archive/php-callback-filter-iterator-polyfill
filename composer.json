@@ -1,0 +1,35 @@
+{
+	"name": "bit3/php-callback-filter-iterator-polyfill",
+	"description": "Use the CallbackFilterIterator in PHP <5.4",
+	"keywords": ["CallbackFilterIterator"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tristan Lins",
+			"email": "tristan.lins@bit3.de",
+			"homepage": "http://bit3.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@bit3.de",
+		"issues": "https://github.com/bit3/php-callback-filter-iterator-polyfill/issues",
+		"source": "https://github.com/bit3/php-callback-filter-iterator-polyfill"
+	},
+	"require": {
+		"php": ">=5.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		}
+	}
+}
