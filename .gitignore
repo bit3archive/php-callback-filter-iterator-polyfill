@@ -13,3 +13,4 @@ Thumbs.db
 # dependencies
 /vendor/
 /composer.phar
+/composer.lock
